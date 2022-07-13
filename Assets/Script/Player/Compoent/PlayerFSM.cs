@@ -6,8 +6,6 @@ using System;
 [Serializable]
 public class Parameter
 {
-    public int jumpMaxTimes;
-
     public bool swordState;
 
     public bool beHitState;

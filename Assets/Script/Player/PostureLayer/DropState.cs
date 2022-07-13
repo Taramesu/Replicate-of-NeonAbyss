@@ -18,14 +18,14 @@ public class DropState : IState
         if (parameter.swordState) //ÅÐ¶ÏÊÇ·ñÎª³Ö½£×´Ì¬
         {
             parameter.legAnimator.Play("drop");
-            parameter.bodyAnimator.Play("sword_drop");
+            parameter.bodyAnimator.Play("sword_jump");
             parameter.armLAnimator.Play("sword_drop");
             parameter.armRAnimator.Play("sword_drop");
         }
         else
         {
             parameter.legAnimator.Play("drop");
-            parameter.bodyAnimator.Play("empty_drop");
+            parameter.bodyAnimator.Play("empty_jump");
             parameter.armLAnimator.Play("empty_drop");
             parameter.armRAnimator.Play("empty_drop");
         }
